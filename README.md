@@ -50,3 +50,23 @@ if __name__ == '__main__':
 ```bash
 python hackerrankproblems.py
 ```
+
+if __name__ == '__main__':
+    a = int(input("enter your first number: "))
+    b = int(input("enter your second number: "))
+    print(a//b)
+    print(a/b)
+print("write a function to return addition, subraction,multiplication,division,floor division of \n two user input numbers")
+num1=int(input("Enter first number: "))
+num2=int(input("Enter second number: "))
+def nisha():
+    addition = num1 + num2
+    subtraction = num1 - num2
+    multiplication = num1 * num2
+    division = num1 / num2
+    floor_division = num1 // num2
+    print(f"addition of two numbers:{addition} \n, subbration of two numbers:{subtraction} \n, multiplication of two numbers:{multiplication} \n, division of two numbers:{division} \n, floor division of two numbers:{floor_division}")
+
+    
+nisha()
+
